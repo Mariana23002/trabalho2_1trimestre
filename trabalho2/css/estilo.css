@@ -1,0 +1,184 @@
+body{
+    font-family: "Lora", serif;
+    background-color: rgb(255, 220, 174);    
+    padding: 20px;
+}
+    
+ 
+header{
+        display: flex;
+        background-color: rgba(252, 202, 149);
+        height: 10vw;     
+         border:2px solid#963102;      
+        }
+
+nav {
+    border:2px solid #963102;
+}
+
+.menu{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(252, 202, 149);
+    gap: 15vw;
+    height: 5vw;
+    padding: 0%;     
+    margin: 0%;
+}  
+
+.fonte-diferente{
+   font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  font-size: 4vw;
+ color:#963102
+
+}
+
+
+.logotipo {
+    display:flex;
+    height: 10vw;
+}
+
+
+.introdução{
+    border: 2px solid #963102;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.referenciasmenu{
+     border: 2px solid #963102;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.galeriamenu{
+     border: 2px solid #963102;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.rodapemenu{
+     border: 2px solid #963102;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #01325a;
+    padding-top: 7vw;
+    padding-bottom: 2vw;
+}
+
+h2{
+    color:#680404;
+    text-align: center;
+}
+
+.sub2, .sub4{ color: #01325a}
+
+
+.img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+
+
+a{
+    text-decoration: none;
+    color: #963102;
+}
+
+.container{
+    display: flex; 
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap:4vw;
+    width: 90vw;
+   padding: 10px;
+}
+
+#bobby{
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+}
+#boris{
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+}
+
+
+.ft{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.ft1{
+    width: 350px;
+    height: auto;
+}
+
+.ft2{
+    width: 350px;
+    height: auto;
+}
+
+.ft3{
+    width: 350px;
+    height: auto;
+}
+
+
+.ft4{
+    width: 350px;
+    height: auto;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4vw;
+  padding-bottom: 8vw;
+}
+
+.voltar{
+    border: 2px solid #963102;
+     border-radius: 20px;
+     padding: 4px;
+    
+    }
+
+    ul{
+    list-style-type: none;
+}
+
+.rodape{
+   display: flex;
+   flex-direction: column; 
+   justify-items: center;
+   justify-content: center;
+   background-color:rgba(252, 202, 149);
+     text-align: center; 
+    font-size: 11px;
+     margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    color:#581c00;
+    border: 2px solid #963102;
+}
