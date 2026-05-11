@@ -88,6 +88,10 @@ h2{
 
 .sub2, .sub4{ color: #01325a}
 
+p{
+   padding: 12px;
+    text-align: center;
+}
 
 .img{
     display: flex;
@@ -174,7 +178,8 @@ a{
      border-radius: 20px;
      padding: 4px;
     margin-bottom: 12px;
-    }
+    margin-left: 5vw;
+}
 
     ul{
     list-style-type: none;
