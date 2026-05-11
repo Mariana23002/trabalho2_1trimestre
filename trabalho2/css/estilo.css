@@ -1,7 +1,8 @@
 body{
     font-family: "Lora", serif;
     background-color: rgb(255, 220, 174);    
-    padding: 20px;
+    padding: 0;
+    margin: 0;
 }
     
  
@@ -11,9 +12,11 @@ header{
     background-color: rgba(252, 202, 149);
     min-height: 80px; 
     border: 2px solid #963102;     
+     width: 100%;
 }
 
 nav {
+    width: 100%;
     border:2px solid #963102;
 }
 
@@ -40,12 +43,10 @@ nav {
 
 }
 
-
 .logotipo {
     display:flex;
     height: 7rem;
 }
-
 
 .introdução{
     border: 2px solid #963102;
@@ -95,6 +96,12 @@ h2{
     max-width: 100%;
     height: auto;
     padding-bottom: 2vw;
+}
+
+.img img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -162,10 +169,11 @@ a{
 }
 
 .voltar{
+    display: inline-block;
     border: 2px solid #963102;
      border-radius: 20px;
      padding: 4px;
-    
+    margin-bottom: 12px;
     }
 
     ul{
@@ -180,7 +188,8 @@ a{
    background-color:rgba(252, 202, 149);
      text-align: center; 
     font-size: 14px;
-     margin: 0;
+    width: 100%; 
+    margin: 0;
     padding: 0;
     padding-top: 10px;
     color:#581c00;
