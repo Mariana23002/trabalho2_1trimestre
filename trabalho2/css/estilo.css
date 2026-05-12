@@ -8,10 +8,8 @@ body{
  
 header{
     display: flex;
-    align-items: center; 
     background-color: rgba(252, 202, 149);
-    min-height: 80px; 
-    border: 2px solid #963102;     
+     border: 2px solid #963102;     
      width: 100%;
 }
 
@@ -26,8 +24,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     background-color:rgba(252, 202, 149);
-    gap: 15px;
-    height: 5vw;        
+    gap: 15px;       
     height: auto;   
     padding: 10px;
 }  
@@ -39,8 +36,7 @@ nav {
   display: flex;
   align-items: center;
   font-size: 2rem;
- color:#963102
-
+ color:#963102;
 }
 
 .logotipo {
@@ -55,13 +51,13 @@ nav {
 }
 
 .referenciasmenu{
-     border: 2px solid #963102;
+    border: 2px solid #963102;
     padding: 7px;
     border-radius: 10px;
 }
 
 .galeriamenu{
-     border: 2px solid #963102;
+    border: 2px solid #963102;
     padding: 7px;
     border-radius: 10px;
 }
@@ -133,14 +129,6 @@ a{
     width: 30vw;
     height: 30vw;
     object-fit: cover;
-}
-
-
-.ft{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     
 }
 
 .ft1{
